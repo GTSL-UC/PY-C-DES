@@ -2,19 +2,25 @@
 PY-C-DES VERSION 2.1 BUILDING GUIDE
 
 1. PREREQUISITES
-Obtaining and running PY-C-DES depends on the following
+            Obtaining and running PY-C-DES depends on the following
 
-git Python {Tested with: Python 3.7+} For easy editing consider downloading and using Anaconda Navigator and Spyder (Python 3.7)
+            git 
+            Python 
+            {Tested with: Python 3.7+} 
+            For easy editing consider downloading and using Anaconda Navigator and Spyder (Python 3.7)
 
 2. OBTAINING PY-C-DES
-The best way to obtain PY-C-DES is to clone the git repository from GitHub as follows:
+            The best way to obtain PY-C-DES is to clone the git repository from GitHub as follows:
 
-git clone https://github.com/GTSL-UC/PY-C-DES.git
+            git clone https://github.com/GTSL-UC/PY-C-DES.git
 
-This will create the directory PY-C-DES in the current working directory.
+            This will create the directory PY-C-DES in the current working directory.
+
+            Downloading the zipped folder and extracting it into the desired directory, 
+            then running the code works as well
 
 3. DIRECTORY CONTENTS
-In the top level of the PY-C-DES directory are the following files:
+            In the top level of the PY-C-DES directory are the following files:
 
 COMPRESSOR FILES -'8st-des' .tci, .tcs, .igv details an 8-stage compressor. PY-C-DES takes the information from these files to calculate the compressor and fluid properties.
 
@@ -23,6 +29,7 @@ COMPRESSOR FILES -'8st-des' .tci, .tcs, .igv details an 8-stage compressor. PY-C
             
             Later versions will allow the user to type the input file name into
             the terminal to choose which input files to run. 
+            
 AIR_XXX.csv - Tables that detail the fluid properties of air throughout a wide spectrum of conditions.
 
 CH4_XXX.csv - Tables that detail the fluid properties of methane throughout a wide spectrum of conditions.
