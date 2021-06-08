@@ -1,0 +1,8 @@
+0.6776          ! Soldity               [-]
+4.133           ! Aspect ratio          [-]
+0.029           ! Phi Loss Coef.        [-]
+0.              ! Inlet Angle           [-]
+0.44            ! Inlet Mach            [-]
+0.98            ! Lambda                [-]
+0.75            ! IGV Row Space Coef.   [-]
+0.276           ! IGV Tip Radius        [m]
