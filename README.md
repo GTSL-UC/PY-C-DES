@@ -9,7 +9,7 @@ git Python {Tested with: Python 3.7+} For easy editing consider downloading and 
 2. OBTAINING PY-C-DES
 The best way to obtain PY-C-DES is to clone the git repository from GitHub as follows:
 
-git clone {{{ THIS DIRECTORY }}}
+git clone https://github.com/GTSL-UC/PY-C-DES.git
 
 This will create the directory PY-C-DES in the current working directory.
 
