@@ -2,7 +2,8 @@
 PY-C-DES VERSION 2.1 BUILDING GUIDE
 
 INTRO: PY-C-DES
-            PY-C-DES takes input properties (inlet conditions, and stage by stage info such as temperature rise, certain type of fluid...) and simulates a compressor design to find the compressor properties using mean-line calculations. It can be run both with the perfect gas assumption and with the real gas properties -- hence the addition of fluid folders and property tables in this directory. It is meant to be used for the starting stage of preliminary compressor design; but could also be used as an educational tool. 
+
+   PY-C-DES takes input properties (inlet conditions, and stage by stage info such as temperature rise, certain type of fluid...) and simulates a compressor design to find the compressor properties using mean-line calculations. It can be run both with the perfect gas assumption and with the real gas properties -- hence the addition of fluid folders and property tables in this directory. It is meant to be used for the starting stage of preliminary compressor design; but could also be used as an educational tool. 
 
 1. PREREQUISITES
             Obtaining and running PY-C-DES depends on the following
