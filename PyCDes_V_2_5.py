@@ -235,7 +235,7 @@ def main(a):
         
         #Changing it to work with current datasets below
         #DTT          = [32.625, 32.125, 31.125 ,30.125, 29.625, 29.125, 28.625, 28.625, 28.625, 48.255] #New temp data
-        DTT          = [37, 36, 35.5, 34.5, 35.0, 34.0, 33.0, 47.269] #Old temp data
+        #DTT          = [37, 36, 35.5, 34.5, 35.0, 34.0, 33.0, 47.269] #Old temp data
         #
     #
     
@@ -673,8 +673,8 @@ def main(a):
         '''CASE 1 -- STAGE 1, BASE GEOMETRY OFF INLET'''
         if STG == 0: 
             #HUB
-            if IGV_Q == 1: 
-                BETA_h = 0   #TC-DES HAS IT WRONG, BUT TO GET THE SAME VALUES AND COMPARE WE DO THIS SWAP
+            #if IGV_Q == 1: 
+                #BETA_h = 0   #TC-DES HAS IT WRONG, BUT TO GET THE SAME VALUES AND COMPARE WE DO THIS SWAP
                 
             GAMMA1_h_ROTOR = BETA_h*(Pi/180)                           #STAGGER ANGLE
             GAMMA2_h_ROTOR = (4*(R_Sol[STG]**0.5)*BETA_2*(Pi/180) - BETA_h*(Pi/180)) / (4*(R_Sol[STG]**0.5) - 1)
