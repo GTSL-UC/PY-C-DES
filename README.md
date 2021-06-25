@@ -61,7 +61,7 @@ In the command prompt, type:
   
   Where 8st-des specifies which compressor inputs to use. PY-C-DES will find the .tci, .tcs, and igv if they are in the directory. 
   
- If using Spyder, then specify the input file prefix with Run > configuration per file >  then select 'command line option and type '8st-des'
+ If using Spyder, then specify the input file prefix with Run > configuration per file >  then select 'command line option' and type '8st-des'
  Hitting the green run button runs the code. 
 
 5. OUTPUTS OF PY-C-DES
