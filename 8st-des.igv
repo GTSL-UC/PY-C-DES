@@ -5,4 +5,4 @@
 0.44            ! Inlet Mach            [-]
 0.98            ! Lambda                [-]
 0.75            ! IGV Row Space Coef.   [-]
-0.276           ! IGV Tip Radius        [m]
+0.100           ! IGV Tip Radius        [m]
