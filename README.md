@@ -88,5 +88,7 @@ The types of files exported are:
    
    Changing the compressor properties in the '8st-des' files is very easy. Just change any value or setting your heart desires for your current work or project. PY-C-DES can currently work with up to 9 stages in a compressor. Future updates should allow for more. 
    
+   If using the perfect gas assumption, the ratio of specific heats and Gas Constant will need to be changed for the desired fluid in the .tci file. 
+   
    
    
