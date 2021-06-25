@@ -1,5 +1,5 @@
 1               ! Units                     [1-SI:2-EN]
-1 1 2 1 1       ! Radius Option [1-hub,2-pitch,3-tip,4-arbitrary] / Design Option [1-Free Vortex,2-Forced Vortex] / inFLAG4 DTT(1) or DH (2) / inFLAG5 /inFLAG6
+3 1 2 1 1       ! Radius Option [1-hub,2-pitch,3-tip,4-arbitrary] / Design Option [1-Free Vortex,2-Forced Vortex] / inFLAG4 DTT(1) or DH (2) / inFLAG5 /inFLAG6
 8               ! Num of Stages            
 116.56          ! Mass Flow Rate            [kg/s]
 17500.00        ! Revolutions per minute    [rpm]
@@ -11,3 +11,7 @@
 0.1889          ! Gas Constant              [kJ/kg*K]
 0.0015          ! Ratio of clearance/(tip ridius) or clearance/(hub radius) for all rotors and stator (not IGV or last stator)
 0.1020          ! Radius if constant hub, mean, or tip radii design used [m]  
+1               ! Calculation Setting [0-Perfect Gas Assumption, 1-Real Gas Properties]
+1               ! Type of Fluid [0-Air, 1-CO2, 2-CH4, Coming Soon... #3-H2, #4-O2, #5-Other]
+ 
+

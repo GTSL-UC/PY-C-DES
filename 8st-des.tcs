@@ -1,4 +1,4 @@
-  Stage Data for sCO2 9 stage meanline design                                                            ! Comment 
+  Stage Data for sCO2 8 stage meanline design -- OPEN SOURCE                                                    ! Comment 
   1          2          3         4          5           6            7           8          9         10       ! Comment Stage
 10.7       14.0       15.8      18.        18          15           12.         9.0        6.0       13.4       ! Alpha 1                    [deg]
 0.43       0.4033     0.3778    0.3522     0.3267      0.3011       0.28        0.26       0.25      0.25       ! Mach 1                     [-]
