@@ -38,11 +38,11 @@ COMPRESSOR INPUT FILES -'8st-des' .tci, .tcs, .igv details an 8-stage compressor
    8st-des.igv -- optional -- PY-C-DES will automatically pick up if the IGV file is in the directory and will utilize it if it is there. 
    It details the IGV properties
             
-AIR_XXX.csv - Tables that detail the fluid properties of air throughout a wide spectrum of conditions.
+AIR - Folder with tables that detail the fluid properties of air throughout a wide spectrum of conditions.
 
-CH4_XXX.csv - Tables that detail the fluid properties of methane throughout a wide spectrum of conditions.
+CH4 - Folder with tables that detail the fluid properties of methane throughout a wide spectrum of conditions.
 
-CO2_XXX.csv - Tables that detail the fluid properties of carbon dioxide throughout a wide spectrum of conditions.
+CO2 - Folder with tables that detail the fluid properties of carbon dioxide throughout a wide spectrum of conditions.
 
 Other full table properties such as O2 and H2 to be added soon. 
 
