@@ -228,6 +228,7 @@ def main(a):
             Lambda[t] = Lambda[t]# - 0.03 * Lambda[t]
             R_Phi[t]  = R_Phi[t] #* 3.5
             S_Phi[t]  = S_Phi[t] #* 3.5
+            DTT = DH
         t += 1
         
         if Fluid == 0: 
