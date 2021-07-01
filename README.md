@@ -44,7 +44,7 @@ CH4 - Folder with tables that detail the fluid properties of methane throughout 
 
 CO2 - Folder with tables that detail the fluid properties of carbon dioxide throughout a wide spectrum of conditions.
 
-Other full table properties such as O2 and H2 to be added soon. 
+Other full table properties such as O2 and H2 follow the same format. 
 
 README - This file.
 
@@ -86,11 +86,10 @@ The types of files exported are:
 
 6. EDITING THE COMPRESSOR in PY-C-DES
    
-   Changing the compressor properties in the '8st-des' files is very easy. Just change any value or setting your heart desires for your current work or project. PY-C-DES can currently work with up to 9 stages in a compressor. -- If there's going to be 10+ stages, make sure there is data for n+1 stages in the compressor. (11 rows in the .tcs file for a 10 stage design. Or say... 15 rows for a 14 stage design. Then it should run)  
+   Changing the compressor properties in the '8st-des' files is very easy. Open the '8st-des' input files with any editor (notepad works just fine) and change any value or setting your heart desires for your current work or project; make sure to save the file before running. PY-C-DES can currently work with up to 9 stages in a compressor. -- If there's going to be 10+ stages, make sure there is data for n+1 stages in the compressor. (11 rows in the .tcs file for a 10 stage design. Or say... 15 rows for a 14 stage design. Then it should run)  
    
    One of the main parameters to change is the 'radius type' in the .tci file. If the constant hub is selected then it keeps the hub constant throughout the entire compressor. The setting with most variable outputs is the '4-Arbitrary' setting. This makes the radii of the compressor for each stage depend on the .tcs file radii values - so if the arbitrary setting is desired, make sure to look over the radii values in the .tci file, so that they make sense and the compressor isn't some monstrosity. 
    
-   If using the perfect gas assumption, the ratio of specific heats and Gas Constant will need to be changed for the desired fluid in the .tci file. 
    
    
    
