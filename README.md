@@ -36,7 +36,7 @@ COMPRESSOR INPUT FILES -'8st-des' .tci, .tcs, .igv details an 8-stage compressor
    8st-des.tcs -- details compressor properties for each stage such as inlet flow angles, mach numbers, enthalpy rise or temperature rise (depending on the setting) and much more. 
    
    8st-des.igv -- optional -- PY-C-DES will automatically pick up if the IGV file is in the directory and will utilize it if it is there. 
-   It details the IGV properties
+   It details the Inlet Guide Vein properties
             
 AIR - Folder with tables that detail the fluid properties of air throughout a wide spectrum of conditions.
 
