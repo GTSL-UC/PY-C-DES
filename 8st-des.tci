@@ -1,6 +1,6 @@
 1               ! Units                     [1-SI:2-EN]
 1	        ! Radius Option [1-hub,2-pitch,3-tip,4-arbitrary]
-8               ! Num of Stages [Max of 9 for now -- See ReadMe]           
+8               ! Num of Stages [If above 10 -- add new stage data to TCS file]        
 116.56          ! Mass Flow Rate            [kg/s]
 17500.00        ! Revolutions per minute    [rpm]
 5510060         ! Inlet Total Pressure      [Pa]
