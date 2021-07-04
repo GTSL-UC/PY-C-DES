@@ -86,7 +86,7 @@ The types of files exported are:
 
 6. EDITING THE COMPRESSOR in PY-C-DES
    
-   Changing the compressor properties in the '8st-des' files is very easy. Open the '8st-des' input files with any editor (notepad works just fine) and change any value or setting your heart desires for your current work or project; make sure to save the file before running. PY-C-DES can currently work with up to 9 stages in a compressor. -- If there's going to be 10+ stages, make sure there is data for n+1 stages in the compressor. (11 rows in the .tcs file for a 10 stage design. Or say... 15 rows for a 14 stage design. Then it should run)  
+   Changing the compressor properties in the '8st-des' files is very easy. Open the '8st-des' input files with any editor (notepad works just fine) and change any value or setting your heart desires for your current work or project; make sure to save the file before running. If there's going to be >10 stages, make sure there is data for >10 stages in the TCS file first before running, otherwise there will be an error.
    
    One of the main parameters to change is the 'radius type' in the .tci file. If the constant hub is selected then it keeps the hub constant throughout the entire compressor; the tip and pitch selection work that way as well. The setting with most variable outputs is the '4-Arbitrary' setting. This makes the radii of the compressor for each stage depend on the .tcs file radii values - so if the arbitrary setting is desired, make sure to look over the radii values in the .tci file, so that they make sense and the compressor isn't some monstrosity. 
    
