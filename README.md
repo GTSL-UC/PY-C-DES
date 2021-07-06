@@ -83,6 +83,8 @@ The types of files exported are:
    AIR_08_29_20.tinf -- output in line with the T-AXI optimization suite. Exports the Number of Blades per each blade row, as well as the corresponding RV-Theta velocity. 
    
    AIR_08_29_20.pdf -- The fun output. Details many compressor and fluid properties in easy to read figures. Over 50 figures output for easy analysis of the design. 
+   
+   NOTE --> The specific heat and gamma graphs use the real gas calculations for the values, regardless of which fluid is selected ('real' or 'perfect gas' setting being selected.) Hence, why they still vary even if the 'perfect gas' is selected. This is done to demonstrate how the specific heat or gamma would vary in the current compressor conditions. However, all the equations for the fluid properties use the gamma or specific heat that corresponds with the fluid setting, so all other properties are in line with the fluid type selected. 
 
 6. EDITING THE COMPRESSOR in PY-C-DES
    
