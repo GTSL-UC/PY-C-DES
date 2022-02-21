@@ -1,4 +1,4 @@
-# PYCDES Script             --- Version 2.5         #
+# PYCDES Script             --- Version 2.6         #
 # University of Cincinnati  --- GTSL                #
 # By Kaden Wells            --- wellskc@mail.uc.edu #
 #                                                   #
