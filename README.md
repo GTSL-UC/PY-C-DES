@@ -1,5 +1,5 @@
 # PY-C-DES
-PY-C-DES VERSION 2.5 BUILDING GUIDE
+PY-C-DES VERSION 2.5, 2.6 BUILDING GUIDE
 
 INTRO: PY-C-DES
 
@@ -57,7 +57,7 @@ To run PY-C-DES, make sure you're in the current directory where these files wer
 
 In the command prompt, type:
             
-            python PyCDes_V_2_5.py 8st-des
+            python PyCDes_V_2_6.py 8st-des
   
   Where 8st-des specifies which compressor inputs to use. PY-C-DES will find the .tci, .tcs, and igv if they are in the directory. 
   
