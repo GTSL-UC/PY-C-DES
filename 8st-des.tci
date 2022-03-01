@@ -7,8 +7,8 @@
 464.89          ! Inlet Total Temperature   [K]
 0.00            ! Alpha 3 - Last Stage      [deg]
 0.250           ! Mach 3 - Last Stage       [-]
-NO LONGER NEEDED! Ratio of Specific Heats   [-] 
-NO LONGER NEEDED! Gas Constant              [kJ/kg*K]
+0               ! Ratio of Specific Heats   [-] 
+0               ! Gas Constant              [kJ/kg*K]
 0.0015          ! Ratio of clearance/(tip ridius) or clearance/(hub radius) for all rotors and stator (not IGV or last stator)
 0.1020          ! Radius if constant hub, mean, or tip radii design used [m]  
 1               ! Calculation Setting [0-Perfect Gas Assumption, 1-Real Gas Properties]
