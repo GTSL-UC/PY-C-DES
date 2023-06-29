@@ -1,0 +1,22 @@
+1               ! Units                     [1-SI:2-EN]
+4               ! Radius Option [1-hub,2-pitch,3-tip,4-arbitrary] 
+10              ! N Stages             
+54.4            ! Mass Flow Rate            [kg/s]
+12299.494       ! Revolutions per minute    [rpm]
+101325.         ! Inlet Total Pressure      [Pa]
+288.15          ! Inlet Total Temperature   [K]
+0.              ! Alpha 3 - Last Stage      [deg]
+0.272           ! Mach 3 - Last Stage       [-]
+1.37836         ! Ratio of Specific Heats   [-] 
+0.2870          ! Gas Constant              [kJ/kg*K]
+0.0015          ! Ratio of clearance/(tip radius) or clearance/(hub radius) for all rotors and stator (not IGV or last stator)
+0               ! Radius if constant hub, mean, or tip radii design used [m]  
+1               ! Calculation Setting [0-Perfect Gas Assumption, 1-Real Gas Properties]
+0               ! Type of Fluid [0-Air, 1-CO2, 2-CH4, 3-H2, 4-O2, #5-Other]
+
+
+         	%R = 0.2870 kJ/kgK... Gamma = 1.4   (Air)
+          	%R = 0.1889 kJ/kgK... Gamma = 1.289 (CO2)
+           	%R = 0.5180 kJ/kgK... Gamma = 1.299 (METHANE)
+           	%R = 4.124  kJ/kgK... Gamma = 1.405 (HYDROGEN)
+            	%R = 0.2598 kJ/kgK... Gamma = 1.395 (OXYGEN)
